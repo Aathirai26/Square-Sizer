@@ -1,0 +1,41 @@
+body{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Redressed', cursive;
+}
+
+.heading{
+    background-image: linear-gradient(to left bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    font-size: 35px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px palevioletred;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: slateblue;
+}
+
+.note{
+    font-size: 25px;
+    color: rgb(235, 44, 11);
+}
+
+#footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: darksalmon;
+    color: rgb(236, 240, 239);
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+    font-weight: bold;
+}
+
+canvas{
+    border: 10px ridge silver;
+    box-shadow:10px 10px 20px springgreen;
+    border-radius: 20px;
+}
